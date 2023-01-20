@@ -1,6 +1,6 @@
-package Mapper;
+package com.accenture.Mapper;
 
-import DTO.ProductRequest;
+import com.accenture.dto.ProductRequest;
 import com.accenture.Entity.Product;
 import org.springframework.stereotype.Component;
 
@@ -14,4 +14,7 @@ public class ProductMapper {
                 .category(productRequest.getCategory())
                 .build();
     }
+
+//    public Response<Product> mapToResponse(Page<Product> pageProduct){
+
 }
